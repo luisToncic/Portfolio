@@ -1,0 +1,204 @@
+
+body{
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+p{
+    font-size: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: orange;
+  padding: 20px 30px 20px 30px;
+}
+
+.titular{
+  text-align: center;
+  padding-top: 250px;
+}
+
+h1{
+  font-size: 60px;
+  margin: 0px;
+  padding-top: 17px;
+}
+
+h2{
+  font-size: 25px;
+  padding-top: 20px;
+  margin-bottom: 40px;
+}
+
+header{
+  background-image: url(./fondo.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+header a{
+    font-size: 35px;
+}
+
+.contenedor{
+  max-width: 1280px;
+  width: 90%;
+  margin: auto;
+}
+
+.descarga{
+    text-align: center;
+    margin: auto; 
+    width: 80%;
+}
+
+h3{
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+  margin-bottom: 0px;
+}
+
+.contenedor-sobremi{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+}
+
+.contenedor-texto-y-boton{
+  width: 42%;
+}
+
+.contenedor-texto-y-boton p{
+  font-size: 18px;
+}
+
+#parrafo-final{
+  margin-bottom: 30px;
+}
+
+span{
+  font-size: 83px;
+  color: blue;
+}
+
+.owl-nav{
+  text-align: center;
+}
+
+footer{
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: #F2F2F2;
+    height: 222px;
+}
+
+.contacto{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+}
+
+footer h2{
+    font-size: 23px;
+    color: rgb(255,255,255);
+    margin-bottom: 40px;
+}
+
+.red-social{
+    height: 60px;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+}
+
+
+#whatsapp a{
+    background: none;
+    position: fixed;
+    top: 87%;
+    right: 35px;
+}
+
+
+@media(max-width: 480px){
+  nav{
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    background: #5cb8ff;
+    width: 100%;
+    display: none;
+  }
+  nav .lista{
+    flex-direction: column;
+  }
+
+  .menu-icon{
+    display: block;
+    width: 25px;
+  }
+
+  .titular{
+    margin-top: 54px;
+  }
+
+  h1{
+    font-size: 49px;
+  }
+
+  h2{
+    font-size: 19px;
+  }
+
+  .contenedor-sobremi{
+    flex-direction: column;
+    height: 1000px;
+  }
+
+  .contenedor-texto-y-boton{
+    width: 90%;
+  }
+
+  .contenedor-servicios{
+    flex-direction: column;
+  }
+
+  .servicio{
+    width: 72%;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+
+  .contenedor_3columnas{
+    flex-direction: column;
+  }
+
+  .contenedor_columna{
+    width: 95%
+  }
+
+  .contenedor-publicaciones{
+    flex-direction: column;
+  }
+
+  .publicacion{
+    width: 85%;
+    margin: auto;
+  }
+
+  .imagen-sobremi{
+    width: 90%;
+  }
+}

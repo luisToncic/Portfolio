@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Luis Toncic - Desarrolador FullStack junior</title>
+        <link rel="stylesheet" href="estilos.css">
+		<link rel="icon" href="favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="calesita/owl.carousel.min.css">
+        <link rel="stylesheet" href="calesita/owl.theme.default.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js" integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+    </head>
+    <body>
+        <header>
+        <div class="titular">
+            <h1>Luis Toncic</h1>
+            <h2>Programador & Desarrollador FullStack Junior</h2>
+            <a href="https://github.com/luisToncic" target="_blank">VER MIS PROYECTOS</a>
+        </div>
+        </header>
+        <section>
+            <h3>Sobre mí</h3>
+            <div class="contenedor-sobremi">
+                <img class="imagen-sobremi" src="yo.png" alt="Luis Toncic" title="Luis Toncic">
+                <div class="contenedor-texto-y-boton">
+                    <p>
+                        Mi nombre es Luis Toncic y siempre estoy buscando innovar en todos los sentidos 
+                        en las áreas en las cuales me desempeño, siempre buscando la forma mas optima
+                        de realizar las tareas que me son encargadas.
+                    </p>
+                    <p>
+                        Me considero una persona responsable, honesta y trabajadora, que siempre esta dispuesta
+                        a aprender y progresar.
+                    </p>
+                    <p id="parrafo-final">
+                        Por medio de mis estudios adquiri conocimientos en C, C# (.net), Java, 
+                        HTML, CSS, JavaScript, Bootstrap, Mysql, SQLServer, phpmyadmin, Arduino C, Electronica y Electricidad
+                        Linux, UML, SCRUM y XP, SCRUMBAN, TDD/BDD, CI/CD.         
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="contenedor">
+                <h3><a href="https://github.com/luisToncic" target="_blank" style="color:black;">Mis Proyectos</a></h3>
+                <div class="owl-carousel">
+                    <a class="fancybox" href="foto_proy1.png">
+                    <img src="foto_proy1.png" alt="Proyecto 1">
+                    </a>
+                    <a class="fancybox" href="foto_proy2.png">
+                    <img src="foto_proy2.png" alt="Proyecto 2">
+                    </a>
+                    <a class="fancybox" href="foto_proy3.png">
+                    <img src="foto_proy3.png" alt="Proyecto 3">
+                    </a>
+                    <a class="fancybox" href="foto_proy4.png">
+                    <img src="foto_proy4.png" alt="Proyecto 4">
+                    </a>
+                </div>
+            </div>
+            <div class="descarga">
+                <p>
+                    Descarga el Juego de Piedra Papel o Tijeras
+                    <a href="https://mega.nz/file/fVV2gL7a#yqv3cWYAj8AU8lVge4Ig535XNWLe--FoxwWnfaCbkgI" target="_blank" style="color: blue; margin: 0; padding: 0;">
+                        aquí </a>(necesitas tener
+                    <a href="https://www.java.com/es/download/ie_manual.jsp" target="_blank" style="color: blue; margin: 0; padding: 0;">
+                        "Java" </a>Version 8 o posterior instalado)
+                </p>
+            </div>
+            
+        </section>
+        <footer>
+            <div class="contenedor">
+                <h2>Contactame!!</h2>
+                <div class="contacto">
+                    <a href="https://www.linkedin.com/in/luistoncic/" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png?20140125013055" class="red-social" alt="LinkedIn">
+                    </a>
+                    <hr>
+                    <a href="mailto:luisalfredotoncic@gmail.com" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png?20160129092800" class="red-social" alt="Gmail">
+                    </a>
+                    <hr>
+                    <a href="https://github.com/luisToncic" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/600px-Octicons-mark-github.svg.png?20180806170715" class="red-social" alt="GitHub">
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <section id="whatsapp">
+            <a href="https://wa.me/5491131089826">
+            <img src="whatsapp.png">
+            </a>
+        </section>
+        <script src="calesita/jquery.min.js"></script>
+        <script src="calesita/owl.carousel.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+        <script>
+            $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:4
+                }
+            }
+            })
+        </script>
+        <script>
+            $(document).ready(function() {
+            $(".fancybox").fancybox({
+                // Opciones adicionales, si las necesitas
+            });
+            });
+        </script>
+    </body>
+</html>
